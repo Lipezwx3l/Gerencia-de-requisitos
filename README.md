@@ -51,9 +51,34 @@ O sistema opera em ambiente web e pode ser acessado através de navegadores em c
 
 ## Diagramas UML
 
+### Diagrama de Caso de Uso
+<p align="center">
+<img src="https://github.com/user-attachments/assets/7add72f8-1885-49bf-bcc8-cb5fd463d6e0" alt="Diagrama de Caso de Uso" width="600">
+</p>
+
+*Este diagrama ilustra o escopo funcional do sistema, identificando o ator 'Usuário' e as ações que ele pode realizar, como Login, Cadastrar, Manter e Concluir tarefas. Ele também destaca regras de negócio importantes (notas em vermelho), como a unicidade do e-mail e restrições de edição para tarefas concluídas.*
+
+### Diagrama de Sequência
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/49a74cd8-99d8-44dd-91c3-76cd04f3aa69" alt="Diagrama de Sequência" width="600">
+</p>
+
+*Este diagrama demonstra a interação técnica passo a passo para o caso de uso 'Cadastrar Tarefa'. Ele exibe a troca de mensagens cronológica entre as camadas do sistema (Usuário, Interface, Controlador e Banco de Dados), desde a solicitação inicial até a confirmação de que os dados foram salvos com sucesso.*
+
+### Diagrama de Atividades
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/7d7b3369-2c3a-40c6-a6ba-8a5c8e27524f" alt="Diagrama de Atividades" width="600">
+</p>
+
+*Este diagrama mapeia o fluxo de navegação e a lógica do sistema. Ele detalha o caminho do usuário desde a tentativa de Login (com verificação de sucesso ou erro) até o acesso à lista de tarefas, onde pode-se iniciar um ciclo de cadastro e manutenção ou encerrar a sessão.*
+
 ## Arquitetura do Sistema
 
-![WhatsApp Image 2025-11-21 at 02 03 24](https://github.com/user-attachments/assets/6c237b58-6ff6-40bf-8f49-8848efcac75f)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/f91ed850-9e6a-49cc-a858-543947494cb8" alt="Arquitetura do Sistena" width="600">
+</p>
 
 # Arquitetura MVC - Sistema de Gerenciamento de Tarefas
 
@@ -188,4 +213,3 @@ projeto/
 1. Configure a conexão com o banco de dados em `conexão.php`
 2. Acesse a aplicação através da view de login
 3. Após autenticação, gerencie suas tarefas através das interfaces disponíveis
-
