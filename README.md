@@ -50,3 +50,7 @@ O sistema opera em ambiente web e pode ser acessado através de navegadores em c
 ---
 
 ## Diagramas UML
+
+## Arquitetura do Sistema
+
+![WhatsApp Image 2025-11-21 at 02 03 24](https://github.com/user-attachments/assets/6c237b58-6ff6-40bf-8f49-8848efcac75f)
