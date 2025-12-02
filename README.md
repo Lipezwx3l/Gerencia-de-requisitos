@@ -53,4 +53,3 @@ O sistema opera em ambiente web e pode ser acessado através de navegadores em c
 
 ## Arquitetura do Sistema
 
-![WhatsApp Image 2025-11-21 at 02 03 24](https://github.com/user-attachments/assets/ac98c49e-33c8-4e5b-922a-df71f58c7b57)
